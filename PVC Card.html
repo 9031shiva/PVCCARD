@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Design</title>
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+align-items: center;
+justify-content: center;
+background: rgb(184, 2, 184);
+}
+.container{
+    position: relative;
+    background-color: white;
+    background-size: cover;
+    padding: 25px;
+    border-radius: 28px;
+    max-width: 580px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(244, 242, 242, 0.1);
+}
+h5{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(13, 13, 13);
+}
+header,.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 48px;
+    margin-right: 10px;
+}
+header.chip {
+    width: 60px;
+
+}
+
+h3{
+    color: rgb(10, 10, 10);
+    font: 20px;
+    font-weight: 700;
+}
+h5.number{
+    margin-top: 5px;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.container .card-details{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+align-items: flex-end;
+}
+h5.name{
+    margin-top: 20px;
+}
+</style>
+<body>
+    <div class="container">
+        <header>
+            <span class="logo">
+                <img src="https://cdn.mos.cms.futurecdn.net/BGvEqebgsELNmbfmWswrPc.jpg" alt="">
+                <h2>Master Card</h2>
+
+            </span>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlD0smTJ4y7_NsIaFTI3irni-6LsS2-kGnrg&s" alt="">
+        </header>
+        <div class="card-details">
+            <div class="card-number">
+                <h3>Card Number</h3>
+                <h5 class="number">8050 5040 2030 3020</h5>
+                <h5 class="name">Shiva Kumar Mahto</h5>
+            </div>
+            <div class="valid-date">
+                <h3>Valid Thru</h3>
+                <h5>05/28</h5>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
